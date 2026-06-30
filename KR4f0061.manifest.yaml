@@ -1,0 +1,100 @@
+canonical_identifier: bkk:krp/KR4f0061/v1
+canonical_location: https://kanripo.org/bkk/KR4f0061/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 容甫先生遺詩
+  date: '2015-09-11 18:03:03.381692'
+  source:
+    repository: kanripo
+    path: KR4f0061
+  base_edition: SBCK
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: SBCK
+  label: 【四部叢刊】
+assets:
+  parts:
+  - {seq: 0, filename: KR4f0061_000.yaml, hash: 'sha256:6ba960e0f4229e96e8c6550f98f83e8e01d0d612705268fb5f17bed052761840'}
+  - {seq: 1, filename: KR4f0061_001.yaml, hash: 'sha256:8b641531b73707cfb6cfedf037812b2163f08332e2435690e4cdb4bcda8def61'}
+  - {seq: 2, filename: KR4f0061_002.yaml, hash: 'sha256:2e34637cd7da1025f0081dde1f5b0b1bd05b6c20e8caf9f62b48468e5332977a'}
+  - {seq: 3, filename: KR4f0061_003.yaml, hash: 'sha256:c31408e00620092ad6d6333a3b0042b1b2bdc86d7929f723f904a186e1882932'}
+  - {seq: 4, filename: KR4f0061_004.yaml, hash: 'sha256:bbfcf19398ce5678ac3beea43e6b26ffa18a0b96ee66e9c9a30bde6e809c5cce'}
+  - {seq: 5, filename: KR4f0061_005.yaml, hash: 'sha256:ab375f81b8febbd75513a13c8fbfa2407a3827707a72caec1793a0ee162eb8f0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4f0061_000.markers.yaml, hash: 'sha256:cb5e5a176627add50e38f7f967a2b682953713292659059d8dc115646dc9c976'}
+  - {seq: 1, role: markers, filename: assets/KR4f0061_001.markers.yaml, hash: 'sha256:b16c33e52bac186503548a7830939c3870ae966fdeda17dcaeca5e7cc5f99854'}
+  - {seq: 2, role: markers, filename: assets/KR4f0061_002.markers.yaml, hash: 'sha256:8c06cc9ee9346077ae1a200ac2574811f88a8af540aa1f4f4fcef11a9a20bfd2'}
+  - {seq: 3, role: markers, filename: assets/KR4f0061_003.markers.yaml, hash: 'sha256:b880e2866107fa1a7c90720acbd5ad38a39a494617e35c6c2ec5570bbc56d949'}
+  - {seq: 4, role: markers, filename: assets/KR4f0061_004.markers.yaml, hash: 'sha256:c7531103d19851d9a7bc268f4549b1f290106048fb87b43e870936ffb81d77a6'}
+  - {seq: 5, role: markers, filename: assets/KR4f0061_005.markers.yaml, hash: 'sha256:690d89beb232f44097db6df50f59396a792634837e1f6a5ed04aeba932b7b640'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4f0061_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 1144
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4f0061_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 9254
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4f0061_SBCK_002-1a
+    span:
+    - body
+    - 0
+    - 1236
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4f0061_SBCK_003-1a
+    span:
+    - body
+    - 0
+    - 2259
+  label: juan 003
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR4f0061_SBCK_004-1a
+    span:
+    - body
+    - 0
+    - 2455
+  label: juan 004
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR4f0061_SBCK_005-1a
+    span:
+    - body
+    - 0
+    - 1695
+  label: juan 005
+  type: section
+  level: 1
+hash: sha256:257e3a2d1e39fa1bd9c77dfacdc39d5b79d32e495e4906c611c48e3161297253
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
